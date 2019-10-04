@@ -57,110 +57,24 @@ input {
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 7px;
+  margin-top: 7px;
 }
-.button1 {
+button {
   width: 30px;
   height: 38px;
+  border-radius: 5px;
 }
 
-.button2 {
-  width: 30px;
-  height: 38px;
+button.fancy {
+  background-color: crimson;
 }
 
-.button3 {
-  width: 30px;
-  height: 38px;
-}
-
-.button4 {
-  width: 30px;
-  height: 38px;
-}
-
-.button5 {
-  width: 30px;
-  height: 38px;
-}
-
-.button6 {
-  width: 30px;
-  height: 38px;
-}
-
-.button7 {
-  width: 30px;
-  height: 38px;
-}
-
-.button8 {
-  width: 30px;
-  height: 38px;
-}
-
-.button9 {
-  width: 30px;
-  height: 38px;
-}
-
-.buttonAC {
-  width: 30px;
-  height: 38px;
-  margin-top: 3px;
-  background-color: lightsalmon;
-}
-
-.buttonCE {
-  width: 30px;
-  height: 38px;
-  margin-top: 3px;
-  background-color: lightsalmon;
-}
-
-.buttonPC {
-  width: 30px;
-  height: 38px;
-  margin-top: 3px;
-}
-
-.button÷ {
-  width: 30px;
-  height: 38px;
-  margin-top: 3px;
-}
-
-.buttonx {
-  width: 30px;
-  height: 38px;
-}
-
-.button- {
-  width: 30px;
-  height: 38px;
-}
-
-.buttonPlus {
+button.big {
   width: 30px;
   height: 83px;
-  margin-right: 57px;
-  margin-left: -53px;
   float: right;
+  margin-left: -50px;
+  margin-right: 56px;
+
+  
 }
-
-
-
-.buttonEql {
-  width: 30px;
-  height: 38px;
-}
-
-.button0 {
-  width: 30px;
-  height: 38px;
-}
-
-.buttonDot {
-  width: 30px;
-  height: 38px;
-}
-
