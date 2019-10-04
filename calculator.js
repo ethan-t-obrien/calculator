@@ -1,35 +1,62 @@
-// create an entries array to store input numbers
+// create arr var to store entries of numbers
 
-//create a total this is what the answer will be equal too.
+// create var total, this is the answer
 
-// create a var called temp. temp should show the numbers you are selecting temporarily e.g 3 shows 3 the press + and 4 shows either 4/7
+//create var temp set to empty ''.
 
-//Get a number add it to temp var
+//make button on click run function, var val = button text hint $(this).text() ?? research further
+//run if function. if val is not a number OR val is === to '.'
+//make temp + and = val;
+//get html element answer/input box and make #answer extract from the temp string from 0 - 10
 
-//got a symbol other than equals add temp to entries var
+//create else if function for AC so that it clears everything, entries, temp, total, and answer to extract empty val
+//create another else if function for CE that clears the last entry only. so clear temp and answer to empty val again
 
-//if AC clear temp and entries
+//create an else if function for symbols other than euqals,
+//add current temp(number) to entries
+//add symbol math property to entries 
+//clear temp 
+//repeat for all symbols, except + and - :)
 
-//if CE clear teh last entry(number in temp)
+//create else if for for = button.
+//add temp to entries
+//create new var nt make nt equal to number of 1st entries
+//run for loop with initilaizer starting at 1 not zero, then run through entries length with i++
+//create var nextNum which is equal to next item in entires, hint (Number(entries[i +1])
+//create var symbol which is equal to entries[i]
 
-//change multiple symbol to multiply temp, push into entries and then clear temp
+//create if function symbol true equal to +, function nt += nextNum
+//create else if, symbol === -, nt -=nextNum
+//create else if, symbol === *, nt *= nextnum
+//create else if, symbol === /, nt /= nextNum
+// create incrementor of i++
 
-//change divide symbol  to divide temp, push into entries and then clear temp
+//we need to swap the '-' so the text input handles it correctly
+//create if statement, nt is less the 0
+//make nt equal to Math.abs(nt) + '-'  FunFact :) (this takes nt absolute value and then ads the - to it so the answer shows as negative)
 
-//got equals sign, preform big calculation
+//make answer val nt
+//clear entries
+//clear temp
 
-  //push temp
-  //create new var called nt 
-  //equal to number function running entries
-  //run a for loop
-  //create to new vars to store the number entries
-  //create new var to store symbols from entries
+//create else statement 
+//add temp to entries
+//add val to entries
+//clear temp
 
-  //if symbol === - make nt -= nextNum
-  //etc for other symbols
 
-  // create increment i++ so it runs through until end.
+ 
+     
+   
+ 
 
-  // swap - symbol so input can handle negative numbered answeres
 
-  //push number val
+  
+
+  
+
+
+
+
+  
+
