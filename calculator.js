@@ -44,6 +44,102 @@
 //add val to entries
 //clear temp
 
+var entries = []
+var total = 0
+var temp = ''
+
+document.getElementById("AC").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("CE").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("%").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("÷").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+
+
+document.getElementById("7").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("8").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("9").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("x").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+
+
+document.getElementById("4").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("5").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("6").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("-").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+
+
+document.getElementById("1").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("2").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("3").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("+").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+
+
+document.getElementById("0").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById(".").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+document.getElementById("=").onclick = function() {
+  var val = this.value
+  alert(val)
+}
+
+// $("button").click(function() {
+//   var val = $(this).text()
+//   alert(val)
+// } 
+
+
+
 
  
      
