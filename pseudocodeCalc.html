@@ -24,7 +24,7 @@ create calculator div/body?
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
-  <script src="calculator.js"></script>
+  <script src="calculator.js" defer></script>
   <title>My Calculator</title>
 </head>
 <body>
@@ -42,33 +42,33 @@ create calculator div/body?
       <div>
 
         <div class="row">
-          <button class="fancy">AC</button>
-          <button class="fancy">CE</button>
-          <button>%</button>
-          <button>÷</button>
+          <button id="AC" value="AC" class="fancy">AC</button>
+          <button id="CE" value="CE" class="fancy">CE</button>
+          <button id="%" value="%">%</button>
+          <button id="÷" value="÷">÷</button>
         </div>
         <div class="row">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
+            <button id="7" value="7">7</button>
+            <button id="8" value="8">8</button>
+            <button id="9" value="9">9</button>
+            <button id="x" value="x">x</button>
         </div>
         <div class="row">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button id="4" value="4">4</button>
+            <button id="5" value="5">5</button>
+            <button id="6" value="6">6</button>
+            <button id="-" value="-">-</button>
         </div>
         <div class="row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="big">+</button>
+            <button id="1" value="1">1</button>
+            <button id="2" value="2">2</button>
+            <button id="3" value="3">3</button>
+            <button id="+" value="+" class="big">+</button>
           </div>
           <div class="row">
-              <button>0</button>
-              <button>.</button>
-              <button>=</button>
+              <button id="0" value="0">0</button>
+              <button id="." value=".">.</button>
+              <button id="=" value="=">=</button>
               
             </div>
       </div>
