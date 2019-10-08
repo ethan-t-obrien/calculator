@@ -49,10 +49,10 @@ var total = 0
 var temp = ''
 
 
-var button = document.getElementsByClassName('row')
-button.onclick = function(event) {
-  var val = event.target
-  alert(event.target.innerHTML)
+function getNum (numClicked) {
+  // alert(numClicked)
+  var val = numClicked 
+  console.log(val)
 }
 
 // document.getElementsByTagName('button').onclick = function() {
